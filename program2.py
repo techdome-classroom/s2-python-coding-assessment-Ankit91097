@@ -16,7 +16,9 @@ class Solution(object):
         result=0
         prev_value=0
         for char in s:
-            value
+            value=roman_map[char]
+
+            if value>
         pass
 
 
