@@ -22,6 +22,8 @@ class Solution(object):
                 result+=value-2*prev_value
             else:
                 result+=value
+            prev_value
+        return result
         pass
 
 
