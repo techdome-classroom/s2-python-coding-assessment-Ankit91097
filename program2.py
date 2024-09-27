@@ -18,7 +18,8 @@ class Solution(object):
         for char in s:
             value=roman_map[char]
 
-            if value>
+            if value>prev_value:
+                result+=value-2
         pass
 
 
