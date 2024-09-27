@@ -10,7 +10,7 @@ class Solution(object):
             if char in mapping:
                 if not stack or stack[-1]!=mapping[char]:
                     return False
-                
+                stack.pop()
         pass
 
 
