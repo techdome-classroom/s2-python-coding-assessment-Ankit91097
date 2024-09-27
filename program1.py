@@ -11,6 +11,7 @@ class Solution(object):
                 if not stack or stack[-1]!=mapping[char]:
                     return False
                 stack.pop()
+                
         pass
 
 
