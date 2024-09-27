@@ -8,7 +8,7 @@ class Solution(object):
         mapping={')':'(','}':'{',']':'['}
         for char in s:
             if char in mapping:
-                if not stack or stack[-1]
+                if not stack or stack[-1]!=mapping[char]
         pass
 
 
