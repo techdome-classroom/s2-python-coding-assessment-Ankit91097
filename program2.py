@@ -24,7 +24,7 @@ class Solution(object):
                 result+=value
             prev_value
         return result
-        pass
+    pass
 
 
 
